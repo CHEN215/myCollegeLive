@@ -1,0 +1,1035 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>我的大学生活</title>
+<!-------------------------css--------------------------->
+<link rel="stylesheet" href="css/onepage-scroll.css" />
+<link rel="stylesheet" href="css/style.css" />
+<!--------------------------jquery_plus--------------------------->
+<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+<script type="text/javascript" src="js/jquery.onepage-scroll.min.js"></script>
+<script type="text/javascript" src="js/plax.js"></script>
+
+<!--[if IE]>
+<script type="text/javascript" >
+	alert("当前浏览器版本过低，请下载最新版本浏览器！");
+	window.location.href="http://www.firefox.com.cn/download/";
+</script>
+<![endif]-->
+
+</head>
+
+<body>
+	<!------------------------------main_nav_text-------------------------------->
+	<ul id="nav" class="z999" style="display:none;">
+		<li>首页</li>
+		<li>起居</li>
+		<li>同学</li>
+		<li>学习</li>
+		<li>其它</li>
+	</ul>
+
+	<script type="text/javascript">
+		$(function(){
+			$("#nav li").click(function(){
+				var _to = $(this).index()+1;
+				$(".main").moveTo(_to);
+			});
+		});
+	</script>
+
+<!----------------------------------------page*4---------------------------------------->
+<div class="main">
+	<!----------------------------------page1_index------------------------------------->
+	<div class="page page1">
+		<!-------------------------------main_nav--------------------------------->
+		<ul id="main_nav" class="z999">
+			<li>
+				<img src="images/nav 1 .png" width="84" height="85" />
+				<p><img src="images/nav 1_info.png" width="172" height="49" border="0" alt=""></p>
+			</li>
+			<li>
+				<img src="images/nav 2 .png" width="85" height="83" />
+				<p><img src="images/nav 2_info.png" width="172" height="49" border="0" alt=""></p>
+			</li>
+			<li>
+				<img src="images/nav 3 .png" width="84" height="85" />
+				<p><img src="images/nav 3_info.png" width="172" height="49" border="0" alt=""></p>
+			</li>
+			<li>
+				<img src="images/nav 4 .png" width="84" height="85" />
+				<p><img src="images/nav 4_info.png" width="172" height="49" border="0" alt=""></p>
+			</li>
+		</ul>
+
+		<script type="text/javascript">
+			$(function(){
+				$("#main_nav li").click(function(){
+					var x = $(this).index()+2;
+					$(".main").moveTo(x);
+				});
+			});
+			
+		</script>
+		
+		<!----------------------------------move------------------------------------>
+		<div class="content"  style="display: block;">
+				<div class="move" id="mountain" >
+					<img src="images/tier 5.png" width="719" height="220" >
+				</div>
+				<div class="move" id="main_building" >
+					<img src="images/tier 4.png" width="227" height="109" >
+				</div>
+				<div class="move" id="side_building" >
+					<img src="images/tier 3.png" width="534" height="261" >
+				</div>
+				<div class="move" id="gate" >
+					<img src="images/tier 2.png" width="464" height="381" >
+				</div>
+				<div class="move" id="stu" >
+					<img src="images/tier 1.png" width="45" height="77" >
+					<img src="images/tier 1-info.png" border="0" alt="" class="tier_1-info">
+				</div>				
+		</div> 
+
+		<script type="text/javascript">
+			$.plax.enable();
+			$('#mountain').plaxify({"xRange":5, "yRange":5});
+			$('#main_building').plaxify({"xRange":10, "yRange":5});
+			$('#side_building').plaxify({"xRange":15, "yRange":5, "invert":true});
+			$('#gate').plaxify({"xRange":20, "yRange":10});
+			$('#stu').plaxify({"xRange":10, "yRange":5, "invert":true});		  
+		</script>
+		
+		<!--------------------------------right----------------------------------->
+		<div id="right">
+			©T.J.COJohn.&Z.B.Chow.All&nbsp;rights&nbsp;reserved.
+		</div>
+	</div>
+
+	<!----------------------------------page2__live------------------------------------->
+	<div class="page page2">
+		<div id="live" >
+			<!----------------------------------map---------------------------------->
+			<div class="ground building">
+				<img src="images/ground.png" width="1022" height="465" border="0" alt="">
+			</div>
+			<div class="dormitory building">
+				<img src="images/dormitory.png" width="231" height="190" border="0" alt="" class="bv">
+				<img src="images/dormitory_mark.png" width="92" height="128" border="0" alt="" class="mark">
+			</div>
+			<div class="gym building">
+				<img src="images/gym.png" width="89" height="85" border="0" alt="" class="bv">
+				<img src="images/gym_mark.png" width="63" height="88" border="0" alt="" class="mark">
+			</div>
+			<div class="teaching_building building">
+				<img src="images/teaching_building.png" width="271" height="250" border="0" alt="" class="bv">
+				<img src="images/teaching_building_mark.png" width="107" height="149" border="0" alt="" class="mark">
+			</div>
+			<div class="auditoria building">
+				<img src="images/auditoria.png" width="184" height="163" border="0" alt="" class="bv">
+				<img src="images/auditoria_mark.png" width="80" height="111" border="0" alt="" class="mark">
+			</div>
+			<div class="library building">
+				<img src="images/library.png" width="226" height="232" border="0" alt="" class="bv">
+				<img src="images/library_mark.png" width="92" height="128" border="0" alt="" class="mark">
+			</div>
+			<div class="canteen building">
+				<img src="images/canteen.png" width="256" height="268" border="0" alt="" class="bv">
+				<img src="images/canteen_mark.png" width="92" height="128" border="0" alt="" class="mark">
+			</div>
+			
+			<!--------------people_close-------------->
+			<p class="people1">
+				<img  src="images/people.png" width="33" height="61" border="0" alt="">
+				<img  src="images/back_2.png" >
+			</p>
+			<!----------------------------------building_information---------------------------------->
+			<ul class="building_info" >
+				<li >
+					<div class="dormitory_info">
+					<h4>起居——宿舍</h4>
+					1、韩师的学生宿舍区划分：分别是西区、东区、东丽A区、东丽B区和东丽D区。<br>
+					2、 宿舍报修的途径——到各区指定地点登记报修：
+						<p>
+							第一宿舍区（西区进华楼、笔峰楼）：西区进华楼宿舍区辅导员办公室<br>
+							第二宿舍区（东区A、B、C栋）：东区A座楼下宿舍区辅导员办公室<br>
+							第三宿舍区（东区D、E、F栋）：东区E座楼下宿舍区辅导员办公室<br>
+							第四宿舍区（东丽A区A、B、C、D、E座）：东丽A区C座楼下宿舍区辅导员办公室<br>
+							第五宿舍区（东丽B区A、B、C座）：东丽B区B座楼下宿舍区辅导员办公室<br>
+							东丽D区待定（新学期，宿舍区报修点可能会有所改动。）
+						</p>
+					3、 住宿费——根据学生入住的不同类型宿舍收费标准收取:
+						<p>
+							西区每生500元;东区A、B、C、D幢每生1200元；东丽学村A区E幢和东丽学村B区每生1300元；东区E、F幢和 <br>
+							东丽学村A区A、B、C、D幢每生1500元。
+						</p>
+					4、 宿舍卫生检查、评比：每个月进行一次全院宿舍检查，各系根据实际情况各系根据各自情况安排检查次数<br>
+						<p>。
+							每次院级宿舍检查包括卫生清洁、内务整理、整体感觉、卫生间、后阳台、消防安全六个方面，每次评<br>
+							比出优胜宿舍以及劣等宿舍，院级优胜宿舍每人每次加0.5分，系级优胜宿舍每人每次加0.2分，每学期每<br>
+							次宿舍检查均被评为优胜宿舍的宿舍将被评为“文明宿舍”，文明宿舍每学期可得奖金100元，该宿舍宿舍 <br>
+							长期末加0.5分。
+						</p>				
+					5、 水电补贴：每个月都有水、电的补贴，热水每人0.6吨/月，冷水每人4吨/月，电每人8度/月，如果用超过<br>
+						<p>
+							的话，宿舍同学就要到指定地点交费，费用是热水10元/吨，冷水1.5元/吨，电0.76元/度。（以上价格仅<br>
+							供参考，如有调动，则以实际调动后的价格为准。）
+						</p>				
+					6、 换宿舍问题在校学生若想更换宿舍，应先向各系辅导员提出书面申请，辅导员批准申请后，会将申请上交
+						<p>
+							学生处宿管科审核，申请通过之后方可更换宿舍，未获批准不得擅自调动。因申请换宿舍手续繁重，因此<br>
+							想申请换宿舍的同学需慎重考虑。床位、桌柜等宿舍内置物品必须按照指定编号使用。
+						</p>
+					</div>
+				</li>
+				<li>
+					<div class="gym_info">
+						<h4>起居——体育馆</h4>
+						韩师的体育运动场所多在东区，有东区、山顶两个田径场，游泳馆，健身房，<br>
+						乒乓球馆，羽毛球馆，篮球场，网球场，排球场等。<br>
+						1、田径场：<br>
+						东区田径场：位于东区图书馆后，塑胶跑道，草地球场，是田径项目的主要训
+									<p>练场所，每年在此举办校运会。</p>
+						山顶田径场：位于东区与西区交界的山顶田径场，也是武术、太极拳、散打、<br>
+									<p>定向越野、篮球等体育课的上课场所。</p>
+						2、游泳馆：位于田径场背面，用于体育游泳课上课，每年夏天也开放收费，校  <br>
+								   <p>内学生刷卡每次3元，校外每次10元。</p>
+						3、健身房：位于田径场背面，用于跆拳道，健身等体育课上课，长期健身须办<br>
+								   <p>理会员卡。</p>
+						4、乒乓球馆：位于山顶田径场旁边，用于乒乓球课上课，平时进去每人3元， <br>
+									 <p>可办理会员卡。此外东丽D区也设有乒乓球桌。</p>
+						5、羽毛球馆：位于田径场背面，用于羽毛球课上课，有时用于举办篮球赛，平 <br>
+									 <p>时每人15元/小时（早上3元）。</p>
+						7、篮球场：东区山顶、西区、东丽A、东丽D区均有篮球场，用于上课等活动。<br>
+						8、网球场：位于东丽D区，用于网球课上课，平时租场每人15元/小时。东区美<br>
+								   <p>术馆楼顶也有网球场。</p>
+						9、排球场：东区山顶、东区美术馆后，东丽D均设排球场，用于上课等活动。<br>
+					</div>
+				</li>
+				<li>
+					<div class="teaching_building_info">
+						<h4>起居——教学楼</h4>
+						教学楼是大学的主要功能场所，可供学生上课，社团开会，学生自习等。<br>
+						韩师教学楼及主要上课系别：<br>
+						1、理科楼（东 区）：物电系、生物系、地旅系、音乐系、美术系、体育系<br>
+						2、文科楼（东丽A）：中文系、数学系、计算机系、政法系、历史系<br>
+						3、伟南楼（东丽B）：化学系、教育系<br>
+						4、伟南楼（西 区）：外语系<br>
+						5、美术馆（东 区）：美术系<br>
+						6、音乐厅（东 区）：音乐系<br>
+						另外<br>
+						理科楼有物电、生物系的实验室<br>
+						文科楼有计算机系的实验室<br>
+						东丽B伟南楼有化学系的实验室<br>
+						西区伟南楼一楼大厅多用于各系迎新晚会<br>
+					</div>
+				</li>
+				<li>
+					<div class="auditoria_info">
+						<h4>会议厅</h4>
+						韩师的会议厅“伟南国际会议会议中心”是专门用于开各种讲座，大型晚会的地方。大学里会有各种各样的讲座开设：<br>
+						1、指导性讲座<br>
+						<p>
+								对于尚未入学的准大学生们来说，如何在入学后尽快适应大学生活从<br>
+							而顺利地完成大学学业，如何充实有效地度过大学四年的美好时光，如何<br>
+							认识大学及大学生活；对于已经入学的大学生来说，如何排除大学生活期<br>
+							间的各种压力和干扰，以及毕业时如何面临多种选择等，难免会存在这样<br>
+							或那样的困惑与迷茫，这就需要有正确的指导和引导。大学讲座中的一部<br>
+							分，就是针对大学生的这一类实际需要而开设的，称为指导性讲座。
+						</p>
+						2学术性讲座<br>
+						<p>
+								学术性讲座作为大学讲座的本源，是大学讲座中最核心的部分，因而<br>
+							也最受大学生群体的关注。学术性讲座，顾名思义，其内容是关于学术问<br>
+							题的探讨和学术研究成果的展现。这一类讲座，通常是最受大学生欢迎的<br>
+							讲座，是大学所有讲座中的精华所在，是构筑大学人文精神和科学精神的<br>
+							载体之一，并构成大学校园文化的鲜明特色。
+						</p>
+						3社会性讲座<br>
+						<p>
+								这一类讲座是对指导性讲座和学术性讲座以外的大学讲座的统称。<br>
+							开放性是大学与身俱来的先天特性，大学从其诞生的那一天起就是一个形<br>
+							式自由而开放的系统，大学对社会变化的能动性适应在大学讲座的内容和<br>
+							形式方面同样有所反映，大学讲座的讲台，同样对社会开放。
+						</p>
+					</div>　	 
+				</li>
+				<li>
+					<div class="library_info">
+						<h4>起居——图书馆</h4>
+						1、图书馆布局：
+						一楼：读者检索台　学生自习室 闭路监控室　学报编辑部<br>
+						二楼：自习室　计算机实验室 音像资料室<br>
+						三楼：自然科学图书借阅厅　社科图书借阅厅（二） 图书馆办公室　学院网络中心<br>
+						四楼：报刊阅览室　书库 采编室　馆领导办公室　会议室<br>
+						五楼：社科图书借阅厅（一） 文学艺术图书借阅厅　生物标本展厅<br>
+						六楼：样本书库（一）（二）现刊分编室 陈复礼摄影艺术馆 图书馆党总支<br>
+						七楼：外文阅览室　 考研自习室 人大复印资料室　 古籍阅览室　潮汕文献室<br>
+							<p>特藏室　 学院广播站　陈其铨书道馆</p>
+						八楼：文理科过刊库　学院档案室 参考阅览室　读者培训室 普通自学室
+						2、开放时间：
+						一楼报刊阅览室、总服务台；阅览室（三、四、五楼):
+							<p>周一至周日 7:50--11:40 14:00--22:00</p>
+						二楼机房、六楼陈复礼摄影馆、七楼陈其铨书道馆、八楼文理科过刊书库、九楼报纸阅览室:
+							<p>周一至周五 7:50--11:40  14:40--17:15 </p>
+						自习室（二、四、七、八楼）:周一至周日 7:40—23:00 <br>
+						六楼样品书库:周一至周日7:50--11:40  14:40--21:50
+					</div>
+				</li>
+				<li>
+					<div class="canteen_info">
+						<h4>起居——食堂</h4>
+						食堂菜，是指食堂做出的菜，广泛分布于全国各地，水平参差不齐。<br>
+						由于分布广、食客多，被戏称为"中国第九大菜系”。
+					</div>
+					
+				</li>
+			</ul>
+		</div>
+		
+		<script type="text/javascript">
+			var _building = $("#live .building"),
+				_building_info = $(".building_info"),
+				_building_item = $(".building_info li");
+
+			_building.click(function(){
+				var $this = $(this),
+					building_index = $this.index();
+
+				if(building_index==0){return false;} //ground without information
+				$this.siblings("div").addClass("blur");
+				$this.addClass("z999");
+				_building_item.eq(building_index-1).show();
+				_building_info.slideDown(600); 
+			
+				$(".people1").click(function(){
+					_building_item.eq(building_index-1).hide();
+					_building_info.slideUp(600);
+					_building.removeClass("z999 blur");
+				});
+			});
+		</script>
+
+	</div>
+
+	<!----------------------------------page3_pepole------------------------------------->
+	<div class="page page3">
+		<div id="people" >
+			<div class="people people_1">
+				<img src="images/people_1.png" width="78" height="76" border="0" alt="">
+				<img src="images/people_1s.png" width="90" height="95" border="0" alt="">
+			</div>
+			<div class="people_info people_info_1">
+				<h3>男/女神</h3>
+				<p class="details">
+					颜值高，学习不错，多数有一技之长<br>
+					（男：运动或音乐等，女：钢琴或舞蹈等）
+				</p>
+				<p class="word">
+					经常说的话：<em>不好意思…（然后你就被拒了）</em>
+				</p>
+			</div>
+
+			<div class="people people_2">
+				<img src="images/people_2.png" width="70" height="66" border="0" alt="">
+				<img src="images/people_2s.png" width="81" height="85" border="0" alt="">
+			</div>
+			<div class="people_info people_info_2">
+				<h3>社团狂人</h3>
+				<p class="details">
+					酷爱各种社团，<br>
+					对参加学生会主席有浓厚的兴趣，<br>
+					一身正气，精力旺盛
+				</p>
+				<p class="word">
+					经常说的话：<em>我今晚开会</em>
+				</p>
+			</div>
+
+			<div class="people people_3">
+				<img src="images/people_3.png" width="66" height="64" border="0" alt="">
+				<img src="images/people_3s.png" width="88" height="93" border="0" alt="">
+			</div>
+			<div class="people_info people_info_3">
+				<h3>神神叨叨型</h3>
+				<p class="details">
+					天天很忙碌，<br>
+					但你又不知道他（她）在忙什么
+				</p>
+				<p class="word">
+					经常说的话：<em>哎呀，忙死了~</em>
+				</p>
+			</div>
+
+			<div class="people people_4">
+				<img src="images/people_4.png" width="103" height="103" border="0" alt="">
+				<img src="images/people_4s.png" width="119" height="122" border="0" alt="">
+			</div>
+			<div class="people_info people_info_4">
+				<h3>宅神</h3>
+				<p class="details">
+					男属）夏天基本赤膊，冬天基本秋衣秋裤<br>
+					必备武器：电脑，不是在游戏就是在自撸<br>
+					（女属）基本不打扮，必备武器，电脑，<br>
+					不是在追剧就是在看动漫
+				</p>
+				<p class="word">
+					经常说的话：<em>喂，我要叫外卖，送到…</em>
+				</p>
+			</div>
+
+			<div class="people people_5">
+				<img src="images/people_5.png" width="71" height="61" border="0" alt="">
+				<img src="images/people_5s.png" width="79" height="80" border="0" alt="">
+			</div>
+			<div class="people_info people_info_5">
+				<h3>小情侣</h3>
+				<p class="details">
+					一进大学就对上眼了，每天出双入对，白天一起上课上自习，<br>
+					晚上一起逛校园，个别食堂里会喂饭，小树林里会夜游
+				</p>
+				<p class="word">
+					经常说的话：<em>亲爱的，我在你楼下了，一起去吃饭吧</em>
+				</p>
+			</div>
+
+			<div class="people people_6">
+				<img src="images/people_6.png" width="88" height="84" border="0" alt="">
+				<img src="images/people_6s.png" width="100" height="103" border="0" alt="">
+			</div>
+			<div class="people_info people_info_6">
+				<h3>学渣</h3>
+				<p class="details">
+					(高端学渣）酷爱上自习。一直在自习，自习。自习…<br>
+					他们和学霸的区别就是，他们成绩不好<br>
+					低端学渣）向来不自习，一只不自习，<br>
+					所以他们成绩不好
+				</p>
+				<p class="word">
+					经常说的话：（高端学渣）<em>我去上自习了</em><br>
+								（低端学渣）<em>卧槽，又要补考了</em>
+				</p>
+			</div>
+
+			<div class="people people_7">
+				<img src="images/people_7.png" width="74" height="78" border="0" alt="">
+				<img src="images/people_7s.png" width="90" height="92" border="0" alt="">
+			</div>
+			<div class="people_info people_info_7">
+				<h3>性别中立型</h3>
+				<p class="details">
+					(男属）女性好闺蜜好知己，陪女生逛街，<br>
+					陪女生聊天,互相切磋打扮的心得<br>
+					（女属）男性好兄弟好哥们，帮男生泡妞，<br>
+					跟男生喝酒打扑克,互相切磋游戏心得
+				</p>
+				<p class="word">
+					经常说的话：<br>
+					（男属）<em>我觉得你应该这么做才能挽回他的心…</em><br>
+					（女属）<em>“卧槽！”</em>
+				</p>
+			</div>
+
+			<div class="people people_8">
+				<img src="images/people_8.png" width="93" height="92" border="0" alt="">
+				<img src="images/people_8s.png" width="109" height="111" border="0" alt="">
+			</div>
+			<div class="people_info people_info_8">
+				<h3>学霸</h3>
+				<p class="details">
+					高端学霸）很机智，靠天分取胜，<br>
+					没太学习，但成绩就是不错<br>
+					（低端学霸）成绩也不错，酷爱上自习，<br>
+					一直在自习。自习。。自习。。。
+				</p>
+				<p class="word">
+					经常说的话：（高端学霸）<em>今天考的那个老师好像讲过</em><br>
+								（低端学霸）<em>我去上自习了</em>
+				</p>
+			</div>
+		</div>
+
+		<script type="text/javascript">
+			var _peoples = $(".page3 #people .people");
+
+			_peoples.click(function(){
+				var $this = $(this);
+				if($this.find("img").eq(0).attr("class")==undefined||$this.find("img").eq(0).attr("class")==""){
+					$this.find("img").eq(0).addClass("people_on1");
+					$this.find("img").eq(1).addClass("people_on2");
+					$this.next("div").addClass("people_info_on");	
+				}else{
+					$this.find("img").eq(0).removeClass("people_on1");
+					$this.find("img").eq(1).removeClass("people_on2");
+					$this.next("div").removeClass("people_info_on");
+				}	
+			});
+		</script>
+
+	</div>
+	
+	<!----------------------------------page4__study------------------------------------->
+	<div class="page page4">
+		<div id="study">
+			<dl class="cursor">
+				<dt><img src="images/course.png" width="126" height="150" border="0" alt=""></dt>
+				<dd>大学课程</dd>
+			</dl>
+			<dl class="study_library">
+				<dt><img src="images/study_library.png" width="227" height="109" border="0" alt=""></dt>
+				<dd>图书馆</dd>
+			</dl>
+			<dl class="lab">
+				<dt><img src="images/lab.png" width="131" height="139" border="0" alt=""></dt>
+				<dd>实验室</dd>
+			</dl>
+			<dl class="association">
+				<dt><img src="images/association.png" width="114" height="86" border="0" alt=""></dt>
+				<dd>学习类社团</dd>
+			</dl>
+			<dl class="internship">
+				<dt><img src="images/internship.png" width="115" height="85" border="0" alt=""></dt>
+				<dd>实习</dd>
+			</dl>
+			<dl class="paper">
+				<dt><img src="images/paper.png" width="74" height="85" border="0" alt=""></dt>
+				<dd>毕业论文</dd>
+			</dl>
+
+			<ul class="study_info">
+				<li >
+					<div class="course_info">
+						<h4>大学课程</h4>
+						<p>
+							基础课<br>
+							大学和中专的基础课的任务，是学生具有高等和中等专门人才的文化水平，为学习专业基础课和专业课打下基本理论和基本技能的基础。同一科类<br>的各个专业，基础课程大致相同。为了达到专门人才的培养目标和基本要求，各专业的基础课都规定为必修课。<br>
+							如大学一年级的基础课有：语文、英语、高等数学、思想道德、计算机、法律基础……
+						</p>
+						<p>
+							专业课<br>
+							专业课的任务，是使学生掌握必要的专业基本理论、专业知识和专业技能，了解本专业的前沿科学技术和发展趋势，培养分析解决本专业范围内一<br>般实际问题的能力。
+						</p>
+						<p>
+							公共课<br>
+							公共课是指高等教育自学考试中任何专业或部分同类专业的考生都必须学习的课程。如《哲 学》、《政治经济学》等。
+						</p>
+						<p>
+							选修课<br>
+							大学选修课可以概括分为两类：公共选修课和专业选修课。公共选修课一般要求的学分不高，在10个学分左右，部分学校有限制其中要含有几个学<br>分的人文类和科技类课程。专业选修课一般只有本专业的学生可以选，大多为专业课程，总学分要求在20分以上，是掌握专业知识的重要途径。选<br>修课的学分要求一般是毕业的硬性指标，在修满学分后才有毕业资格。部分学校的学费与所选选修课的学分数相关。
+						</p>
+						<p>
+							考查课<br>
+							考察课不用象考试课那样的死记硬背，不用像考试课那样的押题、做题，更不用在担心考试后的分数高低，它的要求只要及格就算过，也就是正正<br>好好的六十分。这种现象更类似于初中的会考课，会考课是对所学科目做一个暂短性的段落式总结。所以只要是及格，就说明可以通过该科目的成<br>绩考核。基于这种事实的一个现状，学校还流行一首类似于民谣的绕口令：会考成绩这样得，59分白费，60分万岁，61分浪费。
+						</p>
+					</div>
+				</li>
+				<li >
+					<div class="study_library_info">
+						<h4>图书馆</h4>
+						<p>
+							师图书馆馆藏纸质图书139.5万册，期刊合订本9.8万册，报纸合订本9181册，本馆最有特色的文献典藏为民国时期的原版图书6000册、古籍线装<br>本9700册和潮汕地方文献2363册；中文电子资源数据库17个；馆藏电子图书60万种。
+							图书馆除的自习室也是学习圣地，期末考前会有大量学生到图书馆复习功课，而七楼八楼的考研自习室更是为考研同学提供一个良好的备考环境。
+						</p>
+					</div>
+				</li>
+				<li>
+					<div class="lab_info">
+						<h4>实验室</h4>
+						<p>
+							实验室<br>
+							实验室即进行试验的场所，是科技的产出地，所以国家对试验室投入非常大。现如今很多大学的实验室都是老师与研究生日常工作研究的场所。
+							我们学校实验室分布情况：<br>
+							理科楼（东区）：物电系，生物系实验室<br>
+							文科类（东丽A）：计算机系实验室<br>
+							进华楼（东丽B）：化学系实验室
+						</p>
+					</div>
+				</li>
+				<li>
+					<div class="association_info">
+						<h4>学习类社团</h4>
+						<p>
+							学习类社团：<br>
+							除了平时上课之外，你还可以加入一些学习类的社团，在里面找到志同道合的朋友一起学习。<br>
+							创新教育协会、陶行知教育思想研习会、潮风学社、博硕考研俱乐部、韩园书旅、韩鸣辩论学社、英语联盟、物电系英语俱乐部、演讲学社、烹饪<br>协会、政法系法律工作者协会、历史爱好者协会、旅游协会、新青年促进会、数信系英语沙龙、化学系化学兴趣协会、秘书协会、旅游管理<br>系地理爱好者协会、摄录学会、外语系英语沙龙、生物系植物兴趣小组、法学社、三角梅文学文化研读会、陶乐剧社
+						</p>
+					</div>
+				</li>
+				<li>
+					<div class="internship_info">
+						<h4>实习</h4>
+						实习就业<br>
+						如今的社会，大学生如过江之鲫，这在反映了我国文化水平普遍提高的同时，也很残酷地透露出了一个真实的现状：就业难。许多大学生越来越看<br>重实习的经历，希望能够以此作为求职成功的跳板。实习很重要，但大学生在实习时也有一些需要注意的地方。
+						<p>
+							1．刚从校园步入社会，许多经验难免有所欠缺。在寻找实习单位的时候，一定要多长个心眼，警惕黑中介和皮包公司，对于“想要实习先交押<br>金”的说法千万不要听信，也不要随便把自己的证件交给对方做抵押，避免被不法分子挪作他用。可以上网查询一下对方的相关信息，看看是否<br>可靠。
+						</p>
+						<p>
+							2.一旦决定在某家单位实习，不论对方是什么性质的单位，都应当要提出与对方签订相关的协议，要知道，即便是实习生，他们的权益也是受到<br>劳动法的保护的。不要懵懵懂懂什么也不在意，一定要学会维护自己的合法权益。签订协议的时候要逐条看清楚内容，有不理解或有歧义的，一定<br>要当场提出，该修改的就修改，没有疑问之后，才能签上自己的名字。
+						</p>
+						<p>
+							 3.每个单位都有自己的文化，对自己员工的形象也有要求。不能因为自己不是正式工，就无视相关的规定。衣着大方得体，面容整洁清爽，特殊<br>岗位一定要严格着装，如果没有特别明确的要求，也不能穿着奇装异服、邋里邋遢。
+						</p>
+						<p>
+							4．无论对于哪个工作来说，人际交往都是一门很深奥而又不得不学的课程。也许你本不是长袖善舞之人，但是你身处这个社会，就必须要与各<br>种各样的人打交道。实习生活正好可以作为正式上岗前的一个练习，要学会与大家建立和谐的交际圈，让你能够融入集体之中，被大家所接纳。这<br>也是能够让你的工作顺利开展的重要前提之一。
+						</p>
+						<p>
+							5.家家有本难念的经，单位也一样，内部之中肯定会有一些矛盾、争端什么的。作为聪明的实习生，要把心思放在工作的探索上，千万不要参与<br>八卦圈，如果你实在很感兴趣，只要默默旁听就好，绝对不能发表任何意见和看法。
+						</p>
+						<p>
+							6.实习是一个很好的实践机会，可以让你把所学的理论与实际相结合，或者在实践中更加熟悉理论。要认真把握这个机会，虚心向前辈请教、学<br>习，吸收转换成为自己的经验。
+						</p>
+						<p>
+							7.实习不等于工作，但千万不要因为无法转正就消极对待，其实只要你留心，应该就会发现，有不少正式工就是由实习生破格录用的，原因无怪<br>乎是对待工作勤恳敬业、脚踏实地，让领导很放心、很器重。所以，要把彩排作为正式演出来对待，B角才有可能成为A角。
+						</p>
+						<p>
+							8.有的单位喜欢把实习生作为廉价劳动力，总爱把一些琐事、杂事甚至是清洁打扫的工作都交给实习生来做。实习生要懂得分辨，如果这就是一<br>家拿实习生做临时工的单位，那么趁早离开，免得将宝贵的时间浪费在这些毫无意义的事情上。如果是因为领导对你的能力不了解，无法将具体工<br>作指派给你，那么你就要想办法寻找适当的契机，把你的才干展现出来，从而获得领导的赏识。不要甘心做免费的清洁工，要善于抓住机会。
+						</p>
+					</div>
+				</li>
+				<li>
+					<div class="paper_info">
+						<h4>毕业论文</h4>
+						<p>
+							毕业论文<br>
+							毕业论文是毕业生总结性的独立作业，是学生运用在校学习的基本知识和基础理论，去分析、解决一两个实际问题的实践锻炼过程，也是学生在校<br>学习期间学习成果的综合性总结，是整个教学活动中不可缺少的重要环节。撰写毕业论文对于培养学生初步的科学研究能力，提高其综合运用所学<br>知识分析问题、解决问题能力有着重要意义。<br>
+							编写过程：1、开题报告2、论文编写3、论文上交评定4、论文答辩以5、论文评分<br>
+							组成部分： 标题：总标题、副标题和分标题<br>
+											<h6>目录</h6>
+											<h6>内容提要：报道性提要、指示性提要</h6>
+											<h6>关键词</h6>
+											<h6>正文</h6>
+											<h6>结论</h6>
+											<h6>参考文献</h6>
+											<h6>致谢</h6>
+											<h6>附录</h6>
+						</p>
+					</div>
+				</li>
+
+				<div class="close">
+					<img src="images/close.png" width="33" height="33" border="0" alt="">
+				</div>
+			</ul>
+		</div>
+		
+		<script type="text/javascript">
+			var study_item = $("#study dl"),
+				study_info = $("#study .study_info"),
+				_close = $("#study .close");
+
+			study_item.click(function(){
+				var study_index = $(this).index();
+				study_item.addClass("blur");
+				study_info.find("li").eq(study_index).show();
+				study_info.slideDown(600);
+				
+				_close.click(function(){
+					study_info.find("li").eq(study_index).hide();
+					study_item.removeClass("blur");
+					study_info.slideUp();
+				});
+			});			
+		</script>
+	</div>
+
+	<!----------------------------------page5__else------------------------------------->
+	<div class="page page5">
+		<div class="else">
+			<dl class="activity">
+				<dt><img src="images/activity.png" width="229" height="234" border="0" alt=""></dt>
+				<dd>活动</dd>
+			</dl>
+			<dl class="club">
+				<dt><img src="images/club.png" width="187" height="193" border="0" alt=""></dt>
+				<dd>社团</dd>
+			</dl>
+			<dl class="view">
+				<dt><img src="images/view.png" width="156" height="113" border="0" alt=""></dt>
+				<dd>游玩</dd>
+			</dl>
+		</div>
+
+		<ul class="else_details">
+			
+			<h6><img src="images/back.png" width="81"  border="0" alt=""></h6>
+		
+			<!-------------------------------sub_nav-------------------------------->
+			<ul class="sub_nav" >	
+				<li>活动</li>
+				<li>社团</li>
+				<li>游玩</li>
+				<div class="else_on"></div>
+			</ul>
+
+			<li >
+				<div class="activity_details">
+					<div class="campus_singers">
+						<img src="images/campus_singers.png" width="94" height="93" border="0" alt="">
+						<p>
+							<em>校园歌手：<br></em>
+							校园歌手大赛是韩师的传统活动，为多才多艺的同学提<br>
+							供展示风采与个性的舞台。在校园歌手大赛的舞台上，<br>
+							每年都会涌现出一批优秀的校园歌手。
+						</p>
+					</div>
+					<div class="boys_day">
+						<img src="images/boys_day.png" width="94" height="93" border="0" alt="">
+						<p>
+							<em>男生节：<br></em>
+							每年的11月12日的男生节，是发源于清华大学的传统<br>
+							校园特色节日。如今不仅是清华大学在校学生，更是广<br>
+							大清华毕业生的重要节日和美好回忆。						
+						</p>
+					</div>
+					<div class="welcome_party">
+						<img src="images/welcome_party.png" width="94" height="93" border="0" alt="">
+						<p>
+							<em>迎新晚会：<br></em>
+							迎新晚会举办于每年第一学期头，为了迎接每年的新生<br>
+							，每个系的学生都会编排一场迎新晚会。迎新晚会是大<br>
+							一新生入学后第一场狂欢盛典。
+						</p>
+					</div>
+					<div class="girls_day">
+						<img src="images/girls_day.png" width="94" height="93" border="0" alt="">
+						<p>
+							<em>女生节：<br></em>
+							每年的3月份是女生节，是一个关爱女生、展现高校女<br>
+							生风采的节日，由山东大学发起，后发展于中国各高校<br>
+							，是高校校园趣味文化的代表之一。
+						</p>
+					</div>
+					<div class="club_night">
+						<img src="images/club_night.png" width="94" height="93" border="0" alt="">
+						<p>
+							<em>社团之夜：<br></em>
+							社团之夜举办与每年第一学期头，聚集了校园所有社团<br>
+							前来招新，同时也是一场大型表演，给每个社团一个展<br>
+							现自己魅力的舞台。
+						</p>
+					</div>
+					<div class="sports_meeting">
+						<img src="images/sports_meeting.png" width="94" height="93" border="0" alt="">
+						<p>
+							<em>校运会：<br></em>
+							校运会举办于每年第一学期末，是一年一度的大型体育<br>
+							盛会，每个系都会派出自己的代表队参赛，田径是主要<br>
+							的竞赛项目，还有附属的娱乐活动也备受关注。
+						</p>
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="club_details">
+					<dl>
+						<dt>学术实践</dt>
+						<dd>
+							创新教育协会、陶行知教育思想研习会、潮风学社、博硕考研俱<br>
+							乐部、韩园书旅、韩鸣辩论学社、英语联盟、物电系英语俱乐部<br>
+							、演讲学社、烹饪协会、政法系法律工作者协会、历史爱好者协<br>
+							会、旅游协会、新青年促进会、数信系英语沙龙、化学系化学兴<br>
+							趣协会、秘书协会、旅游管理系地理爱好者协会、摄录学会、外<br>
+							语系英语沙龙、生物系植物兴趣小组、法学社、三角梅文学文化<br>
+							研读会、陶乐剧社
+						</dd>
+					</dl>
+					<dl>
+						<dt>公益服务</dt>
+						<dd>
+							电子协会、军事爱好者协会、韩师电脑义务维护小组、科普协会<br>
+							、阳光志愿者协会、计算机爱好者协会、绿色志愿者协会、心理<br>
+							健康促进会、创业者协会
+						</dd>
+					</dl>
+					<dl>
+						<dt>文化艺术</dt>
+						<dd>
+							美术协会、美术系动漫协会、烧杯摄影学社、书法协会、韩山诗<br>
+							社、灯谜学社、爱乐社、新月剧社、外语系陶乐剧社、风华艺术<br>
+							团、吉他协会、旅游管理系茶艺表演队爱乐社、生物系插花艺术<br>
+							兴趣小组、政法系礼仪修养协会、政法系文工团
+						</dd>
+					</dl>
+					<dl>
+						<dt>体育运动</dt>
+						<dd>
+							体育系裁判协会、体育系跆拳道协会、健身俱乐部、武术协会、<br>
+							定向越野协会、炫风轮滑协会、乒乓球协会、羽毛球协会、篮球<br>
+							协会、足球协会、排球协会、网球协会、毽球协会、三棋协会
+						</dd>
+					</dl>
+				</div>
+			</li>
+			<li>
+				<div class="view_details">
+					<div class="place">
+						<h3>潮州景点</h3>
+						<ul class="">
+							<li>
+								<img src="images/view_1.png" width="135" height="95" border="0" alt="">
+								<p>
+									广济桥，在潮州城东门外，横卧在滚<br>
+									滚的韩江之上，广济桥以其“十八梭<br>
+									船二十四洲”的独特风格与赵州桥、<br>
+									洛阳桥、卢沟桥并称“中国四大古桥”
+								</p>
+							</li>
+							<li>
+								<img src="images/view_5.png" width="135" height="95" border="0" alt="">
+								<p>
+									韩文公祠是中国现存最早纪念唐代文<br>
+									学家韩愈的祠庙。位于城区东面的韩<br>
+									江东岸、笔架山中峰“双旌石”下。<br>
+									笔架山或称东山，又因韩愈而称韩山
+								</p>
+							</li>
+							<li>
+								<img src="images/view_2.png" width="135" height="95" border="0" alt="">
+								<p>
+									牌坊街，潮州标志性景点，也是国内<br>
+									最大规模的古牌坊街。是充分反映潮<br>
+									州历史文化的人文环境、历史风貌和<br>
+									经济生活的文化旅游中心区。
+								</p>
+							</li>
+							<li>
+								<img src="images/view_6.png" width="135" height="95" border="0" alt="">
+								<p>
+									涵碧楼位于潮州西湖公园湖畔上，在<br>
+									近代历史上的国民革命军两次东征中<br>
+									，周恩来、周逸群等曾驻扎于此
+								</p>
+							</li>
+							<li>
+								<img src="images/view_3.png" width="135" height="95" border="0" alt="">
+								<p>
+									开元寺，以地方宽敞、殿阁壮观、圣<br>
+									像庄严、文物众多、香火鼎盛而名闻<br>
+									遐迩，为粤东地区第一古刹，有“百<br>
+									万人家福地，三千世界丛林”之美誉
+								</p>
+							</li>
+							<li>
+								<img src="images/view_7.png" width="135" height="95" border="0" alt="">
+								<p>
+									幽峪逸林旅游区位于广东省潮州市的<br>
+									北部，凤凰山西边,距离潮州市区约38<br>
+									公里。是一处恬静、秀美的自然生态
+									旅游区
+								</p>
+							</li>
+							<li>
+								<img src="images/view_4.png" width="135" height="95" border="0" alt="">
+								<p>
+									凤凰天池景观位于凤凰山脉乌山东峰<br>
+									顶部，海拔约1325米，其主峰海拔<br>
+									1391米，仅次于粤东第一高峰凤凰乌<br>
+									髻，海拔1497.8米
+								</p>
+							</li>
+							<li>
+								<img src="images/view_8.png" width="135" height="95" border="0" alt="">
+								<p>
+									龙湖古寨地处韩江中下游之滨，其地<br>
+									形及建筑风格与古时潮州府很相似，<br>
+									故有龙湖是潮州小城之称。2012年11<br>
+									月龙湖古寨入选广东十大最美古村落
+								</p>
+							</li>
+							<li></li>
+						</ul>
+					</div>
+					<div class="food">
+						<h3>潮州小吃</h3>
+						<ul class="">
+							<li>
+								<img src="images/food_1.png" width="135" height="95" border="0" alt="">
+								<p>
+									春饼的皮酥脆，馅咸香，一口咬下去<br>
+									，只觉口齿留香，食欲大增，是一款<br>
+									不仅让潮州人四季都爱吃而且是来潮<br>
+									的客人不可不品尝的著名小吃
+								</p>
+							</li>
+							<li>
+								<img src="images/food_5.png" width="135" height="95" border="0" alt="">
+								<p>
+									猪脚圈实际上是一种油炸的粿类小食<br>
+									，是潮州颇具特色的一款小食。一般<br>
+									猪脚圈均是卖小食的摊主，在路旁支<br>
+									起炉架，放上锅，边制炸边出卖
+								</p>
+							</li>
+							<li>
+								<img src="images/food_2.png" width="135" height="95" border="0" alt="">
+								<p>
+									鸭母捻潮州传统名小食，首创于清代<br>
+									初年，类似于北方的汤圆，但潮州叫<br>
+									“鸭母捻”其实是取它的形状像母鸭<br>
+									在水上漂浮游荡的意思
+								</p>
+							</li>
+							<li>
+								<img src="images/food_6.png" width="135" height="95" border="0" alt="">
+								<p>
+									糯米猪肠为潮州传统民间小食，历史<br>
+									悠久。 糯米猪肠的取才考究，制法别<br>
+									致。用到的猪肠是猪肠中段，用盐、<br>
+									食用纯碱等反复搓洗至干净无异味
+								</p>
+							</li>
+							<li>
+								<img src="images/food_3.png" width="135" height="95" border="0" alt="">
+								<p>
+									蚝烙是潮州久负盛名的传统民间小食<br>
+									。蚝烙实际即是蚝煎，因为潮州的“<br>
+									烙”，实际即是潮菜烹调方法中的“<br>
+									煎”
+								</p>
+							</li>
+							<li>
+								<img src="images/food_7.png" width="135" height="95" border="0" alt="">
+								<p>
+									咸水粿是一款历史悠久的潮州传统小<br>
+									食，相传在潮州流传至今已有几百年<br>
+									的时间。它形状小巧玲珑，像个盛酱<br>
+									料的小碟，是一款大众化的民间小食。
+								</p>
+							</li>
+							<li>
+								<img src="images/food_4.png" width="135" height="95" border="0" alt="">
+								<p>
+									在潮州小食中，可以说没有一款小食<br>
+									像粿条汤那样大众化，那样受群众喜<br>
+									爱欢迎。可以说一年四季，在潮州几<br>
+									乎到处都可见粿卖条汤的小食摊
+								</p>
+							</li>
+							<li>
+								<img src="images/food_8.png" width="135" height="95" border="0" alt="">
+								<p>
+									炒糕粿不仅是潮州一道传统民间小食<br>
+									，还是一种街头巷尾十分畅销的夜宵<br>
+									，又有独到之处的制法
+								</p>
+							</li>
+							<li></li>
+						</ul>
+					</div>
+				</div>
+			</li>
+		</ul>				
+		<script type="text/javascript">
+			var _else = $(".page5 .else"),
+				_else_item = $(".page5 .else dl"),
+				_else_on = $(".sub_nav .else_on"),
+				_nav = $('#nav'),
+				_lis = $(".sub_nav > li"),
+				_details = $(".page5 .else_details"),
+				_details_item = _details.children("li"),
+				_back = $(".page5 > ul h6");
+
+			_else_item.click(function(){
+				var _i = $(this).index();
+				_nav.hide();
+				_else.fadeOut(600);
+				_else_on.css("top",_i*75+"px");
+				_details_item.eq(_i).show().siblings("li").animate({"top":"-1000px"});
+				_details.delay(300).animate({"right":"0px"},600);
+			});
+			
+			_back.click(function(){
+				_else.delay(300).fadeIn(600);
+				_details.animate({"right":"-100%"},600,function(){
+					_details_item.hide().siblings("li").animate({"top":"0px"});
+				});
+				_else_on.css("top","0px");
+				_nav.delay(300).show();
+			});
+	
+			_lis.click(function(){
+				var _index=$(this).index();
+				_else_on.css("top",_index*75+"px");
+				_details_item.eq(_index).siblings("li").fadeOut(500).animate({"top":"-1000px"});
+				_details_item.delay(300).eq(_index).show().animate({"top":"0px"},600);
+			});
+
+		</script>			
+	</div>
+</div>
+
+<!-------------------------------fullpage_scroll_js-------------------------------------->
+<script type="text/javascript">
+$(function(){
+	$('.main').onepage_scroll({
+		sectionContainer: '.page',
+		loop: false,        
+		pagination:false,
+		afterMove: function(index){
+			switch(index){
+				case 1:
+					$('#nav').hide();
+					break;
+				case 2:
+					$('#nav').show();
+					break;
+				case 3:
+					$('#nav').show();
+					break;
+				case 4:
+					$('#nav').show();
+					break;
+				case 5:
+					$('#nav').show();
+					break;
+			}
+		},
+		beforeMove: function(index){
+			switch(index){
+				case 1:
+					page2(70);page3(0);page4(70);page5(70);
+					break;
+				case 2:
+					page2(50);page3(0);page4(70);page5(70); nav_color(1,"418a4e","ffffcc");
+					break;
+				case 3:
+					page2(70);page3(1);page4(70);page5(70);nav_color(2,"418a4e","a17a2f");
+					break;
+				case 4:
+					page2(70);page3(0);page4(50);page5(70);nav_color(3,"1f68a1","ffffcc");
+					break;
+				case 5:
+					page2(70);page3(0);page4(70);page5(50);nav_color(4,"418a4e","a17a2f");
+					break;
+			}
+		}
+	});
+});
+
+/*****************************************commom.js*****************************************/
+function nav_color(on_index,color_on,color_else){
+	$("#nav li").eq(on_index).css("color","#"+color_on);
+	$("#nav li").eq(on_index).siblings().css("color","#"+color_else);
+};
+function page2(x){
+	$("#live").css("top",x+"%");
+};
+function page3(x){
+	if( x == 0 ){ x = 0.00001 }
+	$("#people").css({
+		"transform" : "scale("+x+")",
+		"opacity" : x
+	});
+};
+function page4(x){
+	$("#study").css("top",x+"%");
+};
+function page5(x){
+	$(".page5 .else").css("top",x+"%");
+};
+
+</script>
+</body>
+</html>
